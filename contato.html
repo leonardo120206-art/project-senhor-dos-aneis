@@ -9,7 +9,7 @@
 <body>
            <div id="titulo_principal">
             <h1> O senhor dos Anéis</h1>
-            <h2>Uma das triologias mais famosas do cinema</h2>
+            <h2>Uma das triologias mais famosas do cinema pneumoultramicroscopi,<wbr>cossilicovulcanoconiótico</h2>
  <nav>
                     <a href="index.html">Home</a>
                     <a href="sinopse.html">Sinopse</a>
@@ -93,10 +93,53 @@
                     </fieldset>
 
                     <select name="" id="">
+                        <optgroup label="Teste de legenda no combobox">
                         <option value="filme1">Filme 1</option>
                         <option value="filme2"> Filme 2</option>
                         <option value="filme3"> Filme 3</option>
-                    </select>
+
+                        </optgroup>
+
+                        <optgroup label="Teste de legenda no combobox 2">
+                        <option value="filme1">Filme 1</option>
+                        <option value="filme2"> Filme 2</option>
+                        <option value="filme3"> Filme 3</option>
+
+                        </optgroup>
+                    </select><br></br>
+
+                    <label for="nivel">Escolha o nivel</label>
+                    <input type="range" max="10" min="1" id="nivel"><br></br>
+
+                    <fieldset>
+                        <legend>Desenvolvimento para internet</legend>
+                        <label> <input type="checkbox" name="php" value="php">PHP</label>
+                        <label> <input type="checkbox" name="html5" value="html5">HTML5</label>
+                        <label> <input type="checkbox" name="css" value="css">CSS</label>
+                        <label> <input type="checkbox" name="js" value="js">JAVASCRIPT</label>
+                    </fieldset><br></br>
+
+                    <input type="text" id="busca_datalist" list="paises">
+
+                    <datalist id="paises">
+                        <option>Brasil</option>
+                        <option>França</option>
+                        <option>Argentina</option>
+                        <option>Alemanha</option>
+                        <option>Inglaterra</option>
+                        <option>Espanha</option>
+                    </datalist><br></br>
+
+                    <audio controls muted autoplay loop>
+                        <source src="audio/musica.mp3" type="audio/mp3">
+                        Navegador não é compatível para executar áudio!
+                    </audio><br></br>
+                    
+                    <video controls autoplay loop muted>
+                        <source src="video/videoteste.mp4" type="video/mp4">
+                    </video><br></br>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5jIHTUvLWvk?si=g2cUq2MTrTMB-q5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <button type="reset">Limpar</button>
                     <button type="submit">Enviar</button>
