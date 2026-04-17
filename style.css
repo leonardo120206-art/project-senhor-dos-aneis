@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 #titulo_principal{
             background-color: #8B6F1E;
             color:white;
@@ -7,10 +9,32 @@
              color: white;
 }
 
-#layout{
-    display: flex;
+
+.rodape {
+    text-align: center;
 }
 
-footer {
-    text-align: center;
+body {
+    background-color: rgb(0, 0, 0); /*Cor de fundo*/
+    color: rgb(255, 255, 255); /*Cor da Fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*Fonte do texto*/
+    font-size: 16px;
+}
+
+#layout{
+    font-size: 1em; /*Herda o tamanho do pai dele com um multiplicador*/
+    display: flex;
+    font-style: normal; /*Estilo da Fonte: italic - normal - oblique*/
+    line-height: 25px; /*Espaçamento entre linhas*/
+    font-weight:  400; /*Negrito em CSS 100 a 900 bold e bolder*/
+    text-transform: none; /*Capitalização do texto : uppercase - lowercase e capitalize */
+    text-decoration: none; /*Sublinhado de texto Underline, overline, line through (Double - dashed - dotted - wavy - none)*/
+    word-spacing: none; /*Espaçamento entre palavras*/
+    letter-spacing: none; /*Espaçamento entre letras*/
+    text-indent: 20px; /*Espaçamento de paragrafo primeira linha*/
+    text-align: justify; /*ALinhamento do Texto left - right - justify e center*/
+}
+
+nav a {
+     text-decoration: none; 
 }
